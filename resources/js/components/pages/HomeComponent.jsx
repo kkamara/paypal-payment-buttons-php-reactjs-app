@@ -5,6 +5,7 @@ import ReactPaginate from 'react-paginate'
 import moment from 'moment'
 import { getUsers, } from '../../redux/actions/usersActions'
 import { authorize } from '../../redux/actions/authActions'
+import { PayPalButtons } from "@paypal/react-paypal-js";
 
 import "./HomeComponent.scss"
 
@@ -76,6 +77,11 @@ export default function HomeComponent() {
   return (
     <>
       <div className='container'>
+        <br />
+        <br />
+        <div className="col-md-4 offset-md-4">
+          <PayPalButtons style={{ layout: "horizontal" }} />
+        </div>
         <br />
         <br />
         {renderList()}
