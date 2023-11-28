@@ -2,7 +2,7 @@
 
 <img src="https://github.com/kkamara/useful/blob/main/php-reactjs-boilerplate2.png?raw=true" alt="php-reactjs-boilerplate2.png" width=""/>
 
-# Paypal Payment Gateway PHP Reactjs App
+# Paypal Payment Gateway PHP Reactjs App [![Tests Pipeline](https://github.com/kkamara/paypal-payment-gateway-php-reactjs-app/actions/workflows/build.yml/badge.svg)](https://github.com/kkamara/paypal-payment-gateway-php-reactjs-app/actions/workflows/build.yml)
 
 (28-Nov-2023).
 
